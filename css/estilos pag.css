@@ -1,0 +1,149 @@
+h1 {
+    color: blueviolet;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-weight: bold;
+    font-size: 19px;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+nav,aside,article, section{    
+    border: 1px solid #999999;
+    display: block;
+    background: rgb(253, 251, 246);
+    margin: 10px;
+}
+body{
+    text-align: center;
+    background: grey;
+}
+.agrupar{
+    border: 1px solid #999999;
+    width: 1300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: rgb(253, 251, 246);
+    display: block;
+    background: rgb(253, 251, 246);
+    margin: 10px;
+}
+.cabesera{
+    color: blueviolet;
+    padding: 5px;
+}
+.cabesera h1{
+    text-align: left;
+    float: left;
+}
+.cabesera img{
+    width: 10%;
+    float: left;
+    margin: 10px;
+}
+.menu{
+    padding: 5px 15px;
+    text-align: left;
+    clear: both;
+    background: #b6fcd5;
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+    border: 1px solid #999999;
+    display: inline-block;
+    color: blueviolet;
+    background: white;
+}
+.seccion{
+    padding: 20px;
+    width: 60%;
+    float: left;
+    background: #b6fcd5;
+}
+.seccion li{
+    padding: 5px;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+    list-style: none;
+}
+time{
+    padding: 5px;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #999999
+}
+.columna{
+    border: 1px solid #999999;
+    width: 30%;
+    float: left;
+    padding: 20px 0px;
+    background: #b6fcd5;
+}
+.pie{
+    border: 1px solid #999999;
+    clear: both;
+    border: 1px solid #999999;
+    display: block;
+    background: rgb(253, 251, 246);
+    background: #b6fcd5;
+}
+.contactos li{
+    color: blueviolet;
+}
+input {
+    background: #535353;
+    width: 500px;
+    color: white;
+}
+.columna li{
+    padding: 5px;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+    list-style: none;
+    color: #999999  
+}
+.columna section{
+    border: 1px solid #b6fcd5;
+    background: #b6fcd5;
+}
+.menu li{
+    width: 130px;
+	background: #4091EC;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+
+    align-self: flex-end;
+
+    color: #fff;
+	font-family: 'Open sans';
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.info_p a{
+    width: 130px;
+	background: #b6fcd5;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+
+    align-self: flex-end;
+
+    color: blueviolet;
+	font-family: 'Open sans';
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
